@@ -15,6 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from googletrans import Translator
 from langdetect import detect_langs
+import base64
 
 
 # Download NLTK dependencies
